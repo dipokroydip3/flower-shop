@@ -1,0 +1,50 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+
+#header{
+      background-color:rgba(229, 84, 115, 0.10) ;
+      
+      
+}
+
+.header-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 150px;
+}
+
+.header-container img{
+      max-width: 440px;
+      height: 550px;
+      margin-top: 40px;
+      margin-bottom: -7px;
+}
+
+.item-left{
+      padding-right: 50px;
+}
+
+.item-heading{
+      font-size: 50px;
+      line-height: 60px;
+      font-weight: 600;
+}
+
+.paragraph{
+      margin-top: 20px;
+      font-size: 14px;
+}
+
+.shop-now{
+      margin-top: 20px;
+      padding: 10px 25px;
+      background-color: #E55473;
+      color: white;
+      border: none;
+      border-radius: 5px;
+}
