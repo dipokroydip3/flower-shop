@@ -179,3 +179,35 @@
 span{
       color: #E55473;
 }
+
+      /* instagram section style start */
+
+.insta-items{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 110px;
+      margin: 50px 0;
+}
+
+.insta-description{
+      width: 500px;
+      text-align:center;
+      margin:30px auto;
+}
+
+.insta-heading{
+      font-size: 30px;
+}
+
+.insta-paragraph{
+      margin: 10px 0;
+}
+
+.insta-item{
+      width: 260px;
+}
+
+.insta-item .insta-image{
+      width: 100%;
+}
