@@ -48,3 +48,68 @@
       border: none;
       border-radius: 5px;
 }
+
+.featured-details{
+      width: 550px;
+      margin:50px auto ;
+      text-align: center;
+}
+.featured-heading{
+      font-size: 30px;
+}
+
+.feature-items{
+      display: flex;
+      justify-content: center;
+}
+.item img{
+      width: 230px;
+      display: block;
+      height: auto;
+      margin-left: 15%;
+      margin-top: 30px;
+}
+
+.item{
+      margin: 0 20px;
+}
+
+.image-box1{
+      width: 350px;
+      height: 370px;
+      display: flex;
+      justify-self: center;
+      background-color: pink;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      overflow: hidden;
+      
+}
+
+.image-box2{
+      width: 350px;
+      height: 370px;
+      background-color: lightblue;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      overflow: hidden;
+}
+
+.image-box3{
+      width: 350px;
+      height: 370px;
+      background-color: lightgreen;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      overflow: hidden;
+}
+
+.item .angkor{
+      display: block;
+     text-align: center;
+}
+
+.middle{
+      display: block;
+      margin: auto auto;
+}
