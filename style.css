@@ -143,5 +143,39 @@
      width: 100px;
      display: block;
      margin: 0 auto;
-     
+}
+
+      /* discount section style start */
+
+#discount{
+      background-color:rgba(229, 84, 115, 0.10) ;
+}
+
+.discount-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 100px;
+}
+
+.discount-item{
+      width: 400px;
+      text-align: center;
+      margin: auto;
+}
+
+.sign-up{
+      padding: 10px 25px;
+      background-color: #E55473;
+      color: white;
+      border: none;
+      border-radius: 5px;
+}
+
+.discount-paragraph{
+      margin: 10px 0;
+}
+
+span{
+      color: #E55473;
 }
