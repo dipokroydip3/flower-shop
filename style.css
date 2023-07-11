@@ -8,10 +8,8 @@
             /* header section style start */
 
 #header{
+      /* height: 100vh; */
       background-color:rgba(229, 84, 115, 0.10) ;
-      
-      
-      
 }
 
 .header-container{
@@ -22,9 +20,8 @@
 }
 
 .header-container img{
-      max-width: 440px;
-      height: 550px;
-      margin-top: 40px;
+      padding-top: 50px;
+      height: 100vh;
       margin-bottom: -7px;
 }
 
@@ -100,6 +97,11 @@
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+}
+.image-box2 img{
+      margin-bottom: 0;
 }
 
 .image-box3{
@@ -181,8 +183,7 @@ span{
       color: #E55473;
 }
 
-      /* instagram section style start */
-
+/*------------------ instagram section style start ------------*/
 .insta-items{
       display: flex;
       justify-content: space-between;
@@ -213,18 +214,76 @@ span{
       width: 100%;
 }
 
-      /* latest section style start */
+ /*------------- bonus section style start -------------*/
+#bonus{
+      background-color:rgba(229, 84, 115, 0.10) ;
+      height: 80vh;
+      position: relative;
+}
+.bonus-container{
+      width: 84%;
+      margin:auto;
+      display: flex;
+      align-items: center;
+}
+.bonus-main{
+      display: flex;
+      align-items: center;
+      margin-top: 100px;
+      gap:40px;
+}
+.demo-video{
+      width: 45%;
+}
+.demo-video video{
+      max-width: 100%;
+      display: block;
+      margin:  auto;
+      border: 10px solid #E55473;
+      border-radius: 20px 0 20px 0;
+}
+
+.demo-message{
+      width: 45%;
+      margin-top: -30px;
+    
+}
+
+.valentine-heading{
+      font-size: 40px;
+      font-weight: 500;
+      margin: 20px 0;
+}
+
+.heard{
+      margin-top: 20px;
+}
+
+.heard-message i{
+      color: #E55473;
+      margin-right: 10px;
+}
+
+.heard-message{
+      font-weight: 300;
+      font-size: 16px;
+}
+
+.valentine-paragraph{
+      margin-top: 25px;
+}
 
 
+/*----------------- latest section style start ---------------*/
 .latest-row{
       width: 84%;
-      margin: auto;
+      margin: 80px auto;
 }
 .main{
       background: url('images/Rectangle\ 9.png'); 
+      background-repeat: no-repeat;
       padding: 80px 0;
       width: 100%;
-      margin-top: 80px;
       background-size: cover;
 }
 .latest-content{
@@ -260,4 +319,29 @@ input{
 
 .btn{
       margin: 20px 0;
+}
+
+
+/*--------------- footer section style start ---------------*/
+#footer .footer-main{
+      background-color: black;
+}
+
+.footer-main .content{
+      width: 40%;
+      color: white;
+      text-align: center;
+      margin:0 auto;
+      padding: 100px 0;
+}
+
+.footer-paragraph{
+      margin: 20px 0;
+      font-weight: 300;
+      color: rgb(195, 195, 195);
+}
+
+.copy-message{
+      font-size: 14px;
+      color: rgb(107, 107, 107);
 }
