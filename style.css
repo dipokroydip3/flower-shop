@@ -5,6 +5,8 @@
       font-family: 'Poppins', sans-serif;
 }
 
+            /* header section style start */
+
 #header{
       background-color:rgba(229, 84, 115, 0.10) ;
       
@@ -49,6 +51,7 @@
       border: none;
       border-radius: 5px;
 }
+            /* featured section style start */
 
 .featured-details{
       width: 550px;
@@ -60,8 +63,11 @@
 }
 
 .feature-items{
+      width: 80%;
+      margin: auto;
       display: flex;
       justify-content: center;
+
 }
 .item img{
       width: 230px;
@@ -80,7 +86,7 @@
       height: 370px;
       display: flex;
       justify-self: center;
-      background-color: pink;
+      background-color: rgba(5, 151, 160, 0.15);
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
       overflow: hidden;
@@ -90,7 +96,7 @@
 .image-box2{
       width: 350px;
       height: 370px;
-      background-color: lightblue;
+      background-color: rgba(5, 151, 160, 0.15);
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
       overflow: hidden;
@@ -99,7 +105,7 @@
 .image-box3{
       width: 350px;
       height: 370px;
-      background-color: lightgreen;
+      background-color: rgba(71, 125, 17, 0.15);
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
       overflow: hidden;
@@ -108,9 +114,34 @@
 .item .angkor{
       display: block;
      text-align: center;
+     padding: 20px 0;
 }
 
 .middle{
       display: block;
       margin: auto auto;
+}
+
+      /* service section style start */
+
+#service{
+      padding: 80px 0;
+}
+.item-container{
+      width: 84%;
+      margin: auto;
+      background-color:rgba(39, 39, 39, 0.05) ;
+}
+.service-row{
+      display: flex;
+      justify-content: space-between;
+      padding:50px 100px ;
+      
+     
+}
+.service-row .item img{
+     width: 100px;
+     display: block;
+     margin: 0 auto;
+     
 }
