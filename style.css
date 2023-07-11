@@ -229,8 +229,11 @@ span{
 .bonus-main{
       display: flex;
       align-items: center;
-      margin-top: 100px;
       gap:40px;
+}
+.bonus-title{
+      text-align: center;
+      line-height: 5;
 }
 .demo-video{
       width: 45%;
